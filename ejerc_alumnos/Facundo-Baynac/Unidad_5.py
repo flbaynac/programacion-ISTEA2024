@@ -80,21 +80,21 @@ def detector_palindromos() -> None:
 
 
 def main() -> None:
-    print("\nEjercicio 1:\n")
+    print("\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
     juego_adivinar_numero()
-    print("\nEjercicio 2:\n")
+    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
     tareas_pendientes()
-    print("\nEjercicio 3:\n")
+    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
     calculadora_propina()
-    print("\nEjercicio 4:\n")
+    print("\n#########\n#########\nEjercicio 4:\n#########\n#########\n")
     carrera_autos()
-    print("\nEjercicio 5:\n")
+    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
     gestor_inventario()
-    print("\nEjercicio 6:\n")
+    print("\n#########\n#########\nEjercicio 6:\n#########\n#########\n")
     area_perimetro_figuras()
-    print("\nEjercicio 7:\n")
+    print("\n#########\n#########\nEjercicio 7:\n#########\n#########\n")
     contador_carac_esp()
-    print("\nEjercicio 8:\n")
+    print("\n#########\n#########\nEjercicio 8:\n#########\n#########\n")
     detector_palindromos()
 
 
