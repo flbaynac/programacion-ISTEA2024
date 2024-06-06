@@ -1,7 +1,7 @@
 # UNIDAD 4
 
 
-def intervalo(): -> None:
+def intervalo() -> None:
     """
     1. Crear una variable con valor 20 va a ser como referencia el minimo.
     Otra con valor de 500, va a ser como referencia el maximo.
@@ -16,13 +16,16 @@ def intervalo(): -> None:
     valor_min = 20
     valor_max = 500
 
-    numero = input("Ingrese un numero: ")
-        while not numero.isdigit():
-            numero = input("Ingrese un numero: ")
-
-        # debe continuar acá el programa
-
-    print("fin del programa........aun sin resolverlo.")
+    numero = input("Ingrese un numero para continuar o una letra para salir: ")
+    while numero.isdigit():
+        numero = int(numero)
+        if numero > valor_max:
+            print("VALOR ALTO")
+        elif numero < valor_min:
+            print("VALOR BAJO")
+        else:
+            print("VALOR MEDIO")
+        numero = input("Ingrese un numero para continuar o una letra para salir: ")
 
 
 def es_anio_bisiesto() -> None:
@@ -30,6 +33,15 @@ def es_anio_bisiesto() -> None:
     2. Escriba un programa que pida un año y que escriba si es bisiesto o no.
     Se recuerda que los años bisiestos son múltiplos de 4, pero los múltiplos de 100 no lo son, aunque los múltiplos de 400 sí.
     """
+    anio = input("Ingrese un año: ")
+    if anio.isdigit():
+        anio = int(anio)
+        if anio % 4 == 0 and (anio % 100 != 0 or anio % 400 == 0):
+            print("Es bisiesto")
+        else:
+            print("No es bisiesto")
+    else:
+        print("Debe ingresar un año válido")
 
 
 def contador_bucles() -> None:
@@ -48,6 +60,13 @@ def contador_bucles() -> None:
     ---
     Fin del programa.
     """
+    num1 = input("Ingrese un número de inicio del bucle: ")
+    num2 = input("Ingrese un número de fin del bucle: ")
+    if num1.isdigit() and num2.isdigit() and int(num1) < int(num2):
+        for contador in range(int(num1), int(num2)+1):
+            print(f"Este es el bucle número {contador}")
+    else:
+        print("No ha ingresado un número o el número de fin de bucle es inferior al del inicio")
 
 
 def promedio_examen() -> None:
@@ -65,6 +84,32 @@ def promedio_examen() -> None:
     Luego preguntar por nota del final (en caso de que haya aprobado la cursada), si es mayor o igual a 6, debe avisar que el alumno aprobó la materia.
     En caso de que sea menor a 6, debe avisar que el alumno no aprobó el final de la materia, y puede rendir recuperatorio.
     """
+    exam1 = input("Ingrese la nota del 1er examen: ")
+    exam2 = input("Ingrese la nota del 2do examen: ")
+    exam3 = input("Ingrese la nota del 3er examen: ")
+    exam4 = input("Ingrese la nota del 4to examen: ")
+    if exam1.isdigit() and exam2.isdigit() and exam3.isdigit() and exam4.isdigit():
+        exam1 = float(exam1)
+        exam2 = float(exam2)
+        exam3 = float(exam3)
+        exam4 = float(exam4)
+        if exam1 > 0 and exam1 <= 10 and exam2 > 0 and exam2 <= 10 and exam2 > 0 and exam2 <= 10 and exam2 > 0 and exam2 <= 10:
+            promedio:float = (exam1 + exam2 + exam3 + exam4) / 4
+            print(f"El promedio de las notas es: {promedio}")
+            if promedio >= 6:
+                print("Tienes aprobada la cursada")
+                final = input("Ingrese la nota del examen final: ")
+                if final.isdigit() and float(final) >= 6:
+                    print("Aprobaste la materia")
+                else:
+                    print("No aprobaste el final, debes rendir recuperatorio")
+            else:
+                print("No aprobaste la cursada")
+        else:
+            print("A ingresado una nota no válida (debe ser entre 1 y 10)")
+    else:
+        print("No ha ingresado un valor numérico")
+    
 
 
 def coeficientes_primer_grado() -> None:
