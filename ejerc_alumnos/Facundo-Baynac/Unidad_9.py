@@ -137,43 +137,98 @@ def conteo_ocurrencias_en_lista() -> None:
 
 
 def main() -> None:
-    print("\n--- NIVEL SIMPLE ---\n\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
+    print("\n--- NIVEL SIMPLE ---\n\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(dic_add.__doc__)
     dic_add()
-    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(dic_print.__doc__)
     dic_print()
-    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(dic_del.__doc__)
     dic_del()
-    print("\n#########\n#########\nEjercicio 4:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
+    print(dic_recorrer.__doc__)
     dic_recorrer()
-    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(dic_copy.__doc__)
     dic_copy()
-    print("\n#########\n#########\nEjercicio 6:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
+    print(dic_longitud.__doc__)
     dic_longitud()
-    print("\n#########\n#########\nEjercicio 7:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7:\n\t#############################\n\n")
+    print(dic_update.__doc__)
     dic_update()
-    print("\n#########\n#########\nEjercicio 8:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 8:\n\t#############################\n\n")
+    print(dic_a_partir_de_dos_listas.__doc__)
     dic_a_partir_de_dos_listas()
-    print("\n#########\n#########\nEjercicio 9:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 9:\n\t#############################\n\n")
+    print(uso_de_get.__doc__)
     uso_de_get()
-    print("\n#########\n#########\nEjercicio 10:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 10:\n\t#############################\n\n")
+    print(combinar_dic.__doc__)
     combinar_dic()
-    print("\n--- NIVEL MEDIO ---\n\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n--- NIVEL MEDIO ---\n\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(contar_ocurrencias_caracteres.__doc__)
     contar_ocurrencias_caracteres()
-    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(invertir_diccionario.__doc__)
     invertir_diccionario()
-    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(agrupar_elementos_por_clave.__doc__)
     agrupar_elementos_por_clave()
-    print("\n#########\n#########\nEjercicio 4:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
+    print(filtrar_dic.__doc__)
     filtrar_dic()
-    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(mezclar_dos_dic.__doc__)
     mezclar_dos_dic()
-    print("\n--- DICCIONARIO DE DICCIONARIOS ---\n\n#########\n#########\nEjercicio 6:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n--- DICCIONARIO DE DICCIONARIOS ---\n\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
+    print(dic_con_valor_otro_dic.__doc__)
     dic_con_valor_otro_dic()
-    print("\n#########\n#########\nEjercicio 7:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7:\n\t#############################\n\n")
+    print(ordenar_dic_por_val.__doc__)
     ordenar_dic_por_val()
-    print("\n--- CONVERTIR LISTAS ANIDADAS A DICCIONARIO ---\n\n#########\n#########\nEjercicio 8:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n--- CONVERTIR LISTAS ANIDADAS A DICCIONARIO ---\n\n\t#############################\n\t\tEjercicio 8:\n\t#############################\n\n")
+    print(dic_frecuencia_palabra.__doc__)
     dic_frecuencia_palabra()
-    print("\n#########\n#########\nEjercicio 9:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 9:\n\t#############################\n\n")
+    print(conteo_ocurrencias_en_lista.__doc__)
     conteo_ocurrencias_en_lista()
 
 

@@ -80,21 +80,43 @@ def detector_palindromos() -> None:
 
 
 def main() -> None:
-    print("\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
+    print("\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(juego_adivinar_numero.__doc__)
     juego_adivinar_numero()
-    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(tareas_pendientes.__doc__)
     tareas_pendientes()
-    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(calculadora_propina.__doc__)
     calculadora_propina()
-    print("\n#########\n#########\nEjercicio 4:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
+    print(carrera_autos.__doc__)
     carrera_autos()
-    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(gestor_inventario.__doc__)
     gestor_inventario()
-    print("\n#########\n#########\nEjercicio 6:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
+    print(area_perimetro_figuras.__doc__)
     area_perimetro_figuras()
-    print("\n#########\n#########\nEjercicio 7:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7:\n\t#############################\n\n")
+    print(contador_carac_esp.__doc__)
     contador_carac_esp()
-    print("\n#########\n#########\nEjercicio 8:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 8:\n\t#############################\n\n")
+    print(detector_palindromos.__doc__)
     detector_palindromos()
 
 

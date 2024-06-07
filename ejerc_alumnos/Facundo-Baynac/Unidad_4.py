@@ -165,35 +165,42 @@ def aproximacion() -> None:
 
 def main() -> None:
     print("\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
-    help(intervalo)
+    print(intervalo.__doc__)
     intervalo()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
-    help(es_anio_bisiesto)
+    print(es_anio_bisiesto.__doc__)
     es_anio_bisiesto()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
-    help(contador_bucles)
+    print(contador_bucles.__doc__)
     contador_bucles()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
-    help(promedio_examen)
+    print(promedio_examen.__doc__)
     promedio_examen()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
-    help(coeficientes_primer_grado)
+    print(coeficientes_primer_grado.__doc__)
     coeficientes_primer_grado()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
-    help(coeficientes_primer_grado)
+    print(coeficientes_primer_grado.__doc__)
     coeficientes_segundo_grado()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 7:\n\t#############################\n\n")
-    help(area_triangulo)
+    print(area_triangulo.__doc__)
     area_triangulo()
     input("Pulse una tecla para continuar")
+    
     print("\n\t#############################\n\t\tEjercicio 9:\n\t#############################\n\n")
-    help(aproximacion)
+    print(aproximacion.__doc__)
     aproximacion()
     input("Pulse una tecla para continuar")
 

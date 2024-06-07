@@ -17,9 +17,12 @@ def convierte_temperatura() -> None:
     luego imprime la temperatura equivalente en Fahrenheit."""
     print("Ingrese la temperatura en Celsius:")
     temperatura_celsius = input()
-    temperatura_celsius = int(temperatura_celsius)
-    temperatura_fahrenheit = (temperatura_celsius * 9 / 5) + 32
-    print(f"La temperatura en Fahrenheit es: {temperatura_fahrenheit}")
+    if temperatura_celsius.isdigit():
+        temperatura_celsius = int(temperatura_celsius)
+        temperatura_fahrenheit = (temperatura_celsius * 9 / 5) + 32
+        print(f"La temperatura en Fahrenheit es: {temperatura_fahrenheit}")
+    else:
+        print("Ha ingresado un caracter inválido")
 
 
 def concat_string() -> None:
@@ -40,21 +43,24 @@ def calcular_area_circulo() -> None:
 
 def calculadora() -> None:
     """Pide al usuario que ingrese dos números y muestra la suma, resta, multiplicación y división de esos números."""
-    print("Ingrese un número:")
-    numero1: int = int(input())  # pasamos del tipo string a int para poder operar
-    print("Ingrese otro número:")
-    numero2: int = int(input())  # pasamos del tipo string a int para poder operar
-    suma = int(numero1) + int(numero2)
-    print("suma: " + str(suma))
-    resta = numero1 - numero2
-    print("resta: " + str(resta))
-    multiplicacion = numero1 * numero2
-    print("multiplicación: " + str(multiplicacion))
-    if numero2 != 0:
-        division = numero1 / numero2
-        print("división: " + str(division))  # se necesita exceptuar el caso de division por cero
+    numero1 = input("Ingrese un número:")
+    numero2 = input("Ingrese otro número:")
+    if numero1.isdigit() and numero2.isdigit():
+        numero1 = int(numero1)
+        numero2 = int(numero2)
+        suma:int = numero1 + numero2
+        print(f"suma: {suma}")
+        resta:int = numero1 - numero2
+        print(f"resta: {resta}")
+        multiplicacion:int = numero1 * numero2
+        print(f"multiplicación: {multiplicacion}")
+        if numero2 != 0:
+            division:float = numero1 / numero2
+            print(f"División: {division:.2f}")
+        else:
+            print("No se puede dividir por 0.")
     else:
-        print("No se puede dividir por 0.")
+        print("Ha ingresado un caracter inválido")
 
 
 def operacion_compleja() -> None:
@@ -80,41 +86,66 @@ def calcular_perimetro_triangulo() -> None:
 
 def imprime_tipo_de_dato() -> None:
     """Pide al usuario que ingrese su nombre, edad y ciudad de residencia y luego imprime cada uno de esos datos con su respectivo tipo de dato."""
-    print("Ingrese nombre:\n")
-    nombre = input()
-    print("Ingrese edad:\n")
-    edad = int(input()) # Input siempre lo toma como string pero debería ser integer
-    print("Ingrese ciudad de residencia: \n")
-    ciudad = input()
-    print(f"Tipo de dato nombre: {str(type(nombre))} \nTipo de dato edad: {str(type(edad))} \nTipo de dato ciudad: {str(type(ciudad))}")
+    nombre = input("Ingrese nombre: ")
+    edad = input("Ingrese edad: ")
+    ciudad = input("Ingrese ciudad de residencia: ")
+    print(f"Tipo de dato nombre: {type(nombre)} \nTipo de dato edad: {type(edad)} \nTipo de dato ciudad: {type(ciudad)}")
 
 
 def operacion_matematica() -> None:
     """Realiza una operación matemática que involucre paréntesis, multiplicación, suma y resta. Guarda el resultado en una variable y luego imprímela junto con su tipo de dato."""
     resultado = (14 * 34) / 12 * (2 - 3 + 6)
-    print(f"El resultado es: {str(resultado)} y su tipo de dato es: {str(type(resultado))}")
+    print(f"El resultado es: {resultado} y su tipo de dato es: {type(resultado)}")
 
 
 def main() -> None:
-    print("\nEjercicio 1:\n")
+    print("\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(area_rectangulo.__doc__)
     area_rectangulo()
-    print("\nEjercicio 2:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(convierte_temperatura.__doc__)
     convierte_temperatura()
-    print("\nEjercicio 3:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(concat_string.__doc__)
     concat_string()
-    print("\nEjercicio 4:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
+    print(calcular_area_circulo.__doc__)
     calcular_area_circulo()
-    print("\nEjercicio 5:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(calculadora.__doc__)
     calculadora()
-    print("\nEjercicio 6:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
+    print(operacion_compleja.__doc__)
     operacion_compleja()
-    print("\nEjercicio 7:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7:\n\t#############################\n\n")
+    print(aprobo_desaprobo.__doc__)
     aprobo_desaprobo()
-    print("\nEjercicio 8:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 8:\n\t#############################\n\n")
+    print(calcular_perimetro_triangulo.__doc__)
     calcular_perimetro_triangulo()
-    print("\nEjercicio 9:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 9:\n\t#############################\n\n")
+    print(imprime_tipo_de_dato.__doc__)
     imprime_tipo_de_dato()
-    print("\nEjercicio 10:\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 10:\n\t#############################\n\n")
+    print(operacion_matematica.__doc__)
     operacion_matematica()
 
 

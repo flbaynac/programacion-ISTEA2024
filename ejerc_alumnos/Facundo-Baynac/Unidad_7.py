@@ -84,33 +84,73 @@ def busqueda_en_lista() -> None:
 
 
 def main() -> None:
-    print("\n--- NIVEL SIMPLE ---\n\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
+    print("\n--- NIVEL SIMPLE ---\n\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(lista_numeros.__doc__)
     lista_numeros()
-    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(lista_companieros.__doc__)
     lista_companieros()
-    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(lista_num_pares.__doc__)
     lista_num_pares()
-    print("\n#########\n#########\nEjercicio 4:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
+    print(lista_csv.__doc__)
     lista_csv()
-    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(lista_potencia_cuadrada.__doc__)
     lista_potencia_cuadrada()
-    print("\n#########\n#########\nEjercicio 6:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
+    print(del_duplicados_lista.__doc__)
     del_duplicados_lista()
-    print("\n#########\n#########\nEjercicio 7a:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7a:\n\t#############################\n\n")
+    print(busca_elemento_en_lista.__doc__)
     busca_elemento_en_lista()
-    print("\n#########\n#########\nEjercicio 7b:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7b:\n\t#############################\n\n")
+    print(extrae_sublista.__doc__)
     extrae_sublista()
-    print("\n--- NIVEL MEDIO ---\n\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n--- NIVEL MEDIO ---\n\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(invierte_lista.__doc__)
     invierte_lista()
-    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(elimina_duplicados.__doc__)
     elimina_duplicados()
-    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(combina_dos_listas.__doc__)
     combina_dos_listas()
-    print("\n#########\n#########\nEjercicio 4a:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4a:\n\t#############################\n\n")
+    print(intersec_dif_conjuntos.__doc__)
     intersec_dif_conjuntos()
-    print("\n#########\n#########\nEjercicio 4b:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4b:\n\t#############################\n\n")
+    print(lista_rangos.__doc__)
     lista_rangos()
-    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(busqueda_en_lista.__doc__)
     busqueda_en_lista()
 
 

@@ -45,25 +45,53 @@ def verificar_palindromos()-> None:
 
 
 def main() -> None:
-    print("\n#########\n#########\nEjercicio 1:\n#########\n#########\n")
+    print("\n\t#############################\n\t\tEjercicio 1:\n\t#############################\n\n")
+    print(calculadora_simple.__doc__)
     calculadora_simple()
-    print("\n#########\n#########\nEjercicio 2:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 2:\n\t#############################\n\n")
+    print(factorial.__doc__)
     factorial()
-    print("\n#########\n#########\nEjercicio 3:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 3:\n\t#############################\n\n")
+    print(numero_primo.__doc__)
     numero_primo()
-    print("\n#########\n#########\nEjercicio 4:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 4:\n\t#############################\n\n")
+    print(potencia.__doc__)
     potencia()
-    print("\n#########\n#########\nEjercicio 5:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 5:\n\t#############################\n\n")
+    print(contador_caracteres.__doc__)
     contador_caracteres()
-    print("\n#########\n#########\nEjercicio 6:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 6:\n\t#############################\n\n")
+    print(reversion_cadena.__doc__)
     reversion_cadena()
-    print("\n#########\n#########\nEjercicio 7:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 7:\n\t#############################\n\n")
+    print(generador_fibonacci.__doc__)
     generador_fibonacci()
-    print("\n#########\n#########\nEjercicio 8:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 8:\n\t#############################\n\n")
+    print(clave_valor.__doc__)
     clave_valor()
-    print("\n#########\n#########\nEjercicio 9:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 9:\n\t#############################\n\n")
+    print(sumar_multiplicar_nums.__doc__)
     sumar_multiplicar_nums()
-    print("\n#########\n#########\nEjercicio 10:\n#########\n#########\n")
+    input("Pulse una tecla para continuar")
+    
+    print("\n\t#############################\n\t\tEjercicio 10:\n\t#############################\n\n")
+    print(verificar_palindromos.__doc__)
     verificar_palindromos()
 
 
